@@ -32,7 +32,7 @@ public:
     void assignStr(const std::string &from);
     void assignArr(const uint8_t *arr, size_t sz);
 
-    void *getValue();
+    void *getValue() const;
     MType getType();
     size_t getAllocSize();
 

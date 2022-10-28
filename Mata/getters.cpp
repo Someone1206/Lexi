@@ -1,6 +1,6 @@
 #include "../Mata.hpp"
 
-void *Mata::getValue()
+void *Mata::getValue() const
 {
     return m_data;
 }
